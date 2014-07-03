@@ -67,7 +67,7 @@ namespace CR_ReverseArgs
             if (_startElement.Parent != _endElement.Parent)
                 return;
 
-            // Exit is elements are not siblings
+            // Exit if elements are not siblings
             if (_startElement.PreviousCodeSibling != _endElement
                 && _startElement.NextCodeSibling != _endElement)
                 return;
